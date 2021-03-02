@@ -26,6 +26,8 @@ Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a
 
 ## Ejercicio 5 - Un solo golpe
 
+![Ejercicio 5](img/e5.png)
+
 ## Ejercicio 6 - Conversor ISBN
 
 ## Ejercicio 7 - El siguiente número
