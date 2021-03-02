@@ -15,6 +15,7 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "quotes": "off"
+        "quotes": "off",
+        "indent": "off"
     }
 }

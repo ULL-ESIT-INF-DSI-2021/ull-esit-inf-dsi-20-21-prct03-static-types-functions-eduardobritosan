@@ -12,7 +12,12 @@ Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a
 
 ## Ejercicio 2 - Notación decimal y factorial
 
+![Ejercicio 2](img/e2-1.png)
+![Ejercicio 2](img/e2-2.png)
+![Ejercicio 2](img/e2-3.png)
 ## Ejercicio 3 - Validador de mensajes
+
+![Ejercicio 3](img/e3.png)
 
 ## Ejercicio 4 - Conversor de estilo
 
