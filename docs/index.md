@@ -30,6 +30,8 @@ Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a
 
 ## Ejercicio 6 - Conversor ISBN
 
+![Ejercicio 6](img/e6.png)
+
 ## Ejercicio 7 - El siguiente número
 
 ## Ejercicio 8 - Contando IPs
