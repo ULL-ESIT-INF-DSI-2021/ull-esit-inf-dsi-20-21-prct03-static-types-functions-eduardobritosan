@@ -21,6 +21,9 @@ Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a
 
 ## Ejercicio 4 - Conversor de estilo
 
+![Ejercicio 4](img/e4-1.png)
+![Ejercicio 4](img/e4-2.png)
+
 ## Ejercicio 5 - Un solo golpe
 
 ## Ejercicio 6 - Conversor ISBN
