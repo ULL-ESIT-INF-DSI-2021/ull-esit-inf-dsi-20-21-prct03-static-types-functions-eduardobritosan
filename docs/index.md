@@ -4,11 +4,11 @@ Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a
 
 ## Objetivos
 
-
-
 ## Tareas previas
 
 ## Ejercicio 1 - Años bisiestos
+
+![Ejercicio 1](img/e1.png)
 
 ## Ejercicio 2 - Notación decimal y factorial
 
