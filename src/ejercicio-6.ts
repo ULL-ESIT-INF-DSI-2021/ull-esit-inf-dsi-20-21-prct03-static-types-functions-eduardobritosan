@@ -9,10 +9,8 @@ function isValidISBN(isbnString: string): boolean {
   isbnString.replace(/-/g, "").split("").forEach((element: string,
     index: number) => {
     if (element.match(/x/i)) {
-      console.log("eseee");
       sum = sum + (10 * iter);
     } else {
-      console.log(isbnString.replace(/-/g, ""));
       sum = sum + (parseInt(element) * iter);
     }
     iter--;

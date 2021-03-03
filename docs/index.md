@@ -34,6 +34,8 @@ Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a
 
 ## Ejercicio 7 - El siguiente número
 
+![Ejercicio 7](img/e7.png)
+
 ## Ejercicio 8 - Contando IPs
 
 ## Ejercicio 9 - Entrenador Pokemon
