@@ -1,7 +1,7 @@
 /**
  * Funcion que busca el siguiente numero mayor
- * @param {number} startNumber el numero inicial
- * @return {number} el numero siguiente
+ * @param startNumber El numero inicial
+ * @return El numero siguiente mayor
  */
 function nextHighest(startNumber: number): number {
   const splitString: string[] = startNumber.toString().split("");
@@ -34,5 +34,5 @@ function nextHighest(startNumber: number): number {
   }
 }
 
-console.log(nextHighest(513));
+console.log(nextHighest(8940));
 

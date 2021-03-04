@@ -1,7 +1,7 @@
 /**
  * Funcion que valida mensajes segun las reglas planteadas en el guion
- * @param {string} plainText la cadena a revisar si es valida o no
- * @return {boolean} el flag de validacion, true si es valido y false si no
+ * @param plainText La cadena a revisar si es valida o no
+ * @return El flag de validacion, true si es valido y false si no
  */
 function isValid(plainText: string): boolean {
   let flag: boolean = true;

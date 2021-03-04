@@ -1,11 +1,11 @@
 /**
  * Funcion de onepunch de Chuck Norris
- * @param {string} plainText la cadena a filtrar
- * @return {string} la cadena filtrada
+ * @param plainText La cadena a filtrar
+ * @return La cadena filtrada
  */
 function onePunch(plainText: string): string {
-  return (plainText === "") ? "Broken!" : plainText.replace(/e/ig, "")
-    .replace(/a/ig, "").split(" ").sort().join();
+  return (plainText === "") ? "Broken!" : plainText.replace(/[ae]/ig, "")
+    .split(" ").sort().join();
 }
 
 console.log(onePunch("Beard Jeans Hairbrush Knuckleduster Sand"));

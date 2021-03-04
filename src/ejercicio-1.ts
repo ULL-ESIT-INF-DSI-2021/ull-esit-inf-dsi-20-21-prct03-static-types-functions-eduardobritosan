@@ -1,9 +1,9 @@
 /**
  * Revisa si un año es bisiesto
- * @param {number} year el año que se pasa a la función
- * @return {boolean} verdadero si es bisiesto falso si no
+ * @param year El año que se pasa a la función
+ * @return Verdadero si es bisiesto falso si no
  */
-function isLeapYear(year: number): boolean {
+export function isLeapYear(year: number): boolean {
   return year % 4 === 0 && (year % 100 !== 0 || year % 400 == 0);
 }
 

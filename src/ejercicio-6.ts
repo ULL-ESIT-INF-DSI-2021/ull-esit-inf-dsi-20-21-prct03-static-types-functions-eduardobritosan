@@ -1,7 +1,7 @@
 /**
  * Recibe un ISBN y comprueba su validez
- * @param {string} isbnString el codigo ISBN en cuestión
- * @return {boolean} la validez del codigo
+ * @param isbnString El codigo ISBN en cuestión
+ * @return La validez del codigo
  */
 function isValidISBN(isbnString: string): boolean {
   let iter: number = 10;

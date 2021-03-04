@@ -16,6 +16,8 @@
     ],
     "rules": {
         "quotes": "off",
-        "indent": "off"
+        "indent": "off",
+        "valid-jsdoc": "off",
+        "require-jsdoc": "off"
     }
 }

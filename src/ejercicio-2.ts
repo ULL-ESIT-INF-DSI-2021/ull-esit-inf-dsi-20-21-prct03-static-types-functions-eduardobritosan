@@ -1,7 +1,7 @@
 /**
  * Factorializa un numero entero
- * @param {number} num el año que se pasa a la función
- * @return {number} el valor del numero factorial
+ * @param num El año que se pasa a la función
+ * @return El valor del numero factorial
  */
 function factorialize(num: number): number {
     if (num < 0) {
@@ -15,8 +15,8 @@ function factorialize(num: number): number {
 
 /**
  * Recibe un factorial y devuelve un decimal
- * @param {string} factorial el factorial en string
- * @return {number} el decimal resultante
+ * @param factorial El factorial en string
+ * @return El decimal resultante
  */
 function factorialToDecimal(factorial: string): number {
     let result: number = 0;
@@ -30,8 +30,8 @@ function factorialToDecimal(factorial: string): number {
 
 /**
  * Recibe un factorial y devuelve un decimal
- * @param {number} decimal el decimal en numero entero
- * @return {string} el cociente de la division
+ * @param decimal El decimal en numero entero
+ * @return El cociente de la division
  */
 function decimalToFactorial(decimal: number): string {
     let iter: number = 1;

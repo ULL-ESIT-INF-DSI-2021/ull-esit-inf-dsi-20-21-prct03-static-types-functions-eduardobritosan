@@ -1,7 +1,7 @@
 /**
  * Funcion que convierte de Snake Case a Camel Case
- * @param {string} snakeString la cadena a convertir
- * @return {string} la cadena convertida
+ * @param snakeString La cadena a convertir
+ * @return La cadena convertida
  */
 function fromSnakeToCamelCase(snakeString: string): string {
   let camelResult = "";
@@ -17,8 +17,8 @@ function fromSnakeToCamelCase(snakeString: string): string {
 
 /**
  * Funcion que convierte de Camel Case a Snake Case
- * @param {string} camelString la cadena a convertir
- * @return {string} la cadena convertida
+ * @param camelString La cadena a convertir
+ * @return La cadena convertida
  */
 function fromCamelToSnakeCase(camelString: string): string {
   let snakeResult = "";

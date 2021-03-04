@@ -15,6 +15,7 @@ Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a
 ![Ejercicio 2](img/e2-1.png)
 ![Ejercicio 2](img/e2-2.png)
 ![Ejercicio 2](img/e2-3.png)
+
 ## Ejercicio 3 - Validador de mensajes
 
 ![Ejercicio 3](img/e3.png)
@@ -38,12 +39,15 @@ Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a
 
 ## Ejercicio 8 - Contando IPs
 
+![Ejercicio 8](img/e8.png)
+
 ## Ejercicio 9 - Entrenador Pokemon
+
+![Ejercicio 9](img/e9.png)
 
 ## Ejercicio 10 - Validador de nombre usuario
 
-
-
+![Ejercicio 10](img/e10.png)
 
 ## Conclusiones
 
