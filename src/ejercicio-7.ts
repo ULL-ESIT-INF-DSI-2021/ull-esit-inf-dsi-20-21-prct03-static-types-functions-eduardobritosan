@@ -35,4 +35,3 @@ function nextHighest(startNumber: number): number {
 }
 
 console.log(nextHighest(8940));
-

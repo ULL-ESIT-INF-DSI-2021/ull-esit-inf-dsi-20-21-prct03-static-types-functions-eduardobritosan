@@ -19,8 +19,7 @@ function isValid(plainText: string): boolean {
       }
     }
   });
-  console.log(split);
   return flag;
 }
 
-console.log(isValid("3hey5hello2hi"));
+console.log(isValid("3hey4hello2hi"));
