@@ -1,10 +1,24 @@
 ## Introducción
 
-Esta asignacion se basra en realizar todo el trabajo previo para poder empezar a utilizar VSCode, un editor de texto flexible con potencial de entorno de desarrollo. Para ello, se revisará como instalarlo, que extensiones son las mas comunes, leer un pequeño tutorial sobre VSCode, configurarlo para conectarse por SSH a una máquina remota, en nuestro caso a la maquina virtual que configuramos en la práctica anterior, configurar las sesione colaborativas con Visual Studio Live Share, y, por último, sumergirnos levemente en el mundo de TypeScript, un superconjunto de JavaScript que añade tipos estáticos y objetos basados en clases, con un sencillo ejemplo.
+Práctica en donde se desarrollarán distintos problemas propuestos, o creados por el profesorado, o sacados de bancos de preguntas típicas de entrevistas de empleo a programadores, o sacados de problemas tipo de campamentos de código. 
+La intencionalidad detrás de esta asignación es el desarrollo y práctica de las capacidades de los alumnos para resolver problemas y manejarse en un entorno TypeScript, en particular haciendo uso de las operaciones del tipo de dato __string__ y dando uso a los __tipos estáticos__.
 
 ## Objetivos
 
+- Resolver los ejercicios propuestos.
+- Mantenerse dentro del ámbito de las soluciones propuestas (no utilizar elementos del lenguaje todavia no impartidos en clase).
+- Elaborar un informe que explique lo realizado.
+- Documentar los ejercicios.
+- Escribir pruebas (en este caso a posteriori, dado que se impartió la clase de pruebas después de tener acabados casi todos los ejercicios).
+
 ## Tareas previas
+
+Para tener la formacion correcta para la cumplimentar los ejercicios propuestos, hacen falta dos pasos importantes:
+- Completar los primeros 4 capítulos del libro [Essential Typescript: From Beginner to Pro](https://learning.oreilly.com/library/view/essential-typescript-from/9781484249796/html/Part_1.xhtml).
+- Leerse y hacer algunas pruebas con los métodos del tipo __string__ descritos en el [tutorial de W3Schools](https://www.w3schools.com/js/js_string_methods.asp).
+- Revisar el capítulo de expresiones regulares de [la misma fuente](https://www.w3schools.com/js/js_regexp.asp).
+- Instalar TypeDoc
+- Instalar Mocha y Chai
 
 ## Ejercicio 1 - Años bisiestos
 
