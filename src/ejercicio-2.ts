@@ -3,7 +3,7 @@
  * @param num El año que se pasa a la función
  * @return El valor del numero factorial
  */
-function factorialize(num: number): number {
+export function factorialize(num: number): number {
     if (num < 0) {
         return -1;
     } else if (num === 0) {
@@ -18,7 +18,7 @@ function factorialize(num: number): number {
  * @param factorial El factorial en string
  * @return El decimal resultante
  */
-function factorialToDecimal(factorial: string): number {
+export function factorialToDecimal(factorial: string): number {
     let result: number = 0;
     let pos: number = factorial.length - 1;
     factorial.split("").map((letter: string, index: number) => {
@@ -33,7 +33,7 @@ function factorialToDecimal(factorial: string): number {
  * @param decimal El decimal en numero entero
  * @return El cociente de la division
  */
-function decimalToFactorial(decimal: number): string {
+export function decimalToFactorial(decimal: number): string {
     let iter: number = 1;
     let result: string = "";
     while (decimal != 0) {
@@ -43,9 +43,3 @@ function decimalToFactorial(decimal: number): string {
     }
     return result;
 }
-
-console.log(`El resultado de pasar 341010 de factorial a decimal es:
-${factorialToDecimal("341010")}`);
-
-console.log(`El resultado de pasar 463 de decimal a factorial es:
-${decimalToFactorial(463)}`);

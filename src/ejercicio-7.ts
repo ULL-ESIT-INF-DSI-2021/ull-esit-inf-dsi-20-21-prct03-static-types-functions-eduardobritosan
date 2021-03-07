@@ -3,7 +3,7 @@
  * @param startNumber El numero inicial
  * @return El numero siguiente mayor
  */
-function nextHighest(startNumber: number): number {
+export function nextHighest(startNumber: number): number {
   const splitString: string[] = startNumber.toString().split("");
   const len: number = splitString.length;
   let i: number;
@@ -33,5 +33,3 @@ function nextHighest(startNumber: number): number {
     return result;
   }
 }
-
-console.log(nextHighest(8940));

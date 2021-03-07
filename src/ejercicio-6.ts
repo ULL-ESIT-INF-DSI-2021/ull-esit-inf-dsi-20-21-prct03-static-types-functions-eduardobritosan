@@ -3,7 +3,7 @@
  * @param isbnString El codigo ISBN en cuestión
  * @return La validez del codigo
  */
-function isValidISBN(isbnString: string): boolean {
+export function isValidISBN(isbnString: string): boolean {
   let iter: number = 10;
   let sum: number = 0;
   isbnString.replace(/-/g, "").split("").forEach((element: string,
@@ -21,5 +21,3 @@ function isValidISBN(isbnString: string): boolean {
     return false;
   }
 }
-
-console.log(isValidISBN("3-598-21507-X"));

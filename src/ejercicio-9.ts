@@ -1,3 +1,6 @@
+/**
+ * Types of pokemon available
+ */
 type pokeTypes = "Fuego" | "Hierba" | "Electrico" | "Agua";
 
 /**
@@ -57,5 +60,3 @@ export function pokeDamage(pokeType: pokeTypes, oppType: pokeTypes,
 
   return 50 * (pokeAttack / oppDefense) * effectiveness;
 }
-
-console.log(pokeDamage("Agua", "Fuego", 1, 1));

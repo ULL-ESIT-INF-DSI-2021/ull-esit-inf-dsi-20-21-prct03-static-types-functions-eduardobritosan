@@ -3,7 +3,7 @@
  * @param plainText La cadena a revisar si es valida o no
  * @return El flag de validacion, true si es valido y false si no
  */
-function isValid(plainText: string): boolean {
+export function isValid(plainText: string): boolean {
   let flag: boolean = true;
   if (plainText === "") {
     return true;
@@ -21,5 +21,3 @@ function isValid(plainText: string): boolean {
   });
   return flag;
 }
-
-console.log(isValid("3hey4hello2hi"));

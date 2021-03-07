@@ -2,7 +2,7 @@
  * Funcion que convierte de IP a entero
  * @param ip La ip que se desea convertir en entero
  */
-function ipToInt(ip: string): number {
+export function ipToInt(ip: string): number {
   const splitIp: string[] = ip.split(".");
   return ((((((+splitIp[0]) * 256) + (+splitIp[1])) * 256) +
     (+splitIp[2])) * 256) + (+splitIp[3]);
@@ -17,4 +17,3 @@ export function ipCalc(ipStart: string, ipEnd: string): number {
   return ipToInt(ipEnd) - ipToInt(ipStart);
 }
 
-console.log(ipCalc("20.0.0.10", "20.0.1.0"));

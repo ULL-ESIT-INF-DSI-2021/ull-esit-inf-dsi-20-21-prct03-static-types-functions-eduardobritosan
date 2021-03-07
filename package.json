@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/ejercicio-9.js\"",
+    "start": "tsc-watch --onSuccess \"npx mocha\"",
     "doc": "npx typedoc; touch ./docs/.nojekyll",
     "test": "npx mocha"
   },

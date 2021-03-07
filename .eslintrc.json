@@ -18,6 +18,7 @@
         "quotes": "off",
         "indent": "off",
         "valid-jsdoc": "off",
-        "require-jsdoc": "off"
+        "require-jsdoc": "off",
+        "object-curly-spacing": "off",
     }
 }
